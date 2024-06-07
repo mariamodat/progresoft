@@ -34,7 +34,7 @@ The FX Deal Management Application is a Spring Boot application designed to mana
 1. Clone the repository:
 
     ```bash
-    git clone 
+    git clone https://github.com/mariamodat/progresoft.git
     ```
 
 2. Navigate to the project directory:
