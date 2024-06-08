@@ -35,7 +35,7 @@ public class FXDealServiceImpl implements FXDealService {
             throw new DuplicateFxDealException("Deal with unique ID " + deal.getDealUniqueId() + " already exists");
         }
         fxDealRepo.save(Util.toEntity(deal));
-        return FxDealResponse.builder().message("Deal with unique ID: " + deal.getDealUniqueId() + "has been created successfully!")
+        return FxDealResponse.builder().message("Deal with unique ID: " + deal.getDealUniqueId() + " has been created successfully!")
                 .statusCode(HttpStatus.CREATED).build();
     }
 
